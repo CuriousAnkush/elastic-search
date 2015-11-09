@@ -54,4 +54,5 @@ Rails.application.routes.draw do
   #     resources :products
   #   end
   resources :articles
+  get 'search', to: 'search#search'
 end
